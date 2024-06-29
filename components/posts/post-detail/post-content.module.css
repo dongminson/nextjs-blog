@@ -1,0 +1,20 @@
+.content {
+  width: 90%;
+  max-width: 80rem;
+  margin: 2rem auto;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.content p {
+  color: hsl(276, 5%, 20%);
+}
+
+.content .image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}

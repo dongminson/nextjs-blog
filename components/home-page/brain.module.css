@@ -1,0 +1,50 @@
+.brainContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.brainPath {
+  stroke: black;
+  stroke-width: 1;
+  animation: goPath 3000ms alternate infinite;
+}
+.brainCircle {
+  stroke: black;
+  fill: black;
+  animation: goCircle 3000ms alternate infinite;
+}
+.brainRect {
+  stroke: black;
+  fill: black;
+  animation: goRect 3000ms alternate infinite;
+}
+.brainEllipse {
+  stroke: black;
+  fill: black;
+  animation: goRect 3000ms alternate infinite;
+}
+
+@keyframes goPath {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes goRect {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes goCircle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

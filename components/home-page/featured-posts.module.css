@@ -1,0 +1,15 @@
+.latest {
+  width: 90%;
+  max-width: 80rem;
+  margin: 2rem auto;
+}
+
+.latest h2 {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-rendering: optimizelegibility;
+  visibility: visible;
+}
